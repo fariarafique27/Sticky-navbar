@@ -1,0 +1,63 @@
+body{
+    margin:0 ;
+    padding: 0 ;
+}
+.top-container{
+    background:url(https://media.istockphoto.com/photos/a-business-man-using-a-computer-to-manage-documents-online-document-picture-id1342186559?k=20&m=1342186559&s=612x612&w=0&h=8RrAtTLqzonIuTaLsAw44WWWS9vMtcBULbstPCkeqgs=); 
+     background-size: cover;
+    height: 100vh ;
+    color: rgba(4, 18, 94, 0.774);
+}
+.bottom-container{
+    
+}
+.top-container h1{
+    margin-top: 0;
+    align-items: center;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    font-size: 61px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+.text{
+    font-family: sans-serif;
+    margin: 51px 5%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    box-shadow: 0 4px 9px rgb(0, 0, 0 , .3);
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    font-family: cursive;
+  
+}
+.navbar ul li a {
+    
+   margin: 0 9px;
+   font-size: 19px;
+   text-decoration: none;
+   transition: .1s;
+}
+.navbar ul li a:hover {
+    color:red;
+  
+ 
+ }
+
+.navbar.active{
+   background-color:black;
+
+}
+.navbar.active ul li a{ 
+    color:rgb(255, 255, 255);
+ 
+ }
